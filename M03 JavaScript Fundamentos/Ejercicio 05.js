@@ -12,7 +12,8 @@ function esPositivo(num) {
       return ("Es positivo");
       } else if (Math.round(num) < 0) {
          return ("Es negativo")
-         } else false;
+         } else (num === 0) 
+            return false;         
 }
 
 function agregarSimboloExclamacion(str) {
